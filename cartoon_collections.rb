@@ -3,8 +3,6 @@
 def roll_call_dwarves(names)
   array_names = Array.new
   %w(Doc Dopey Bashful Grumpy). each_with_index { |item, index| array[item] = index }
-  array_names = ["Doc", "Dopey", "Bashful", "Grumpy"]
-  puts
 end
 
 def summon_captain_planet# code an argument here

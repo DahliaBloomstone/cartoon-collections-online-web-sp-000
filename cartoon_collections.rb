@@ -1,6 +1,6 @@
 #collect, map, find, include, each_with_index, control flow if/else
 
-def roll_call_dwarves(names)
+def roll_call_dwarves(names, index)
 names = ["Doc", "Dopey", "Bashful", "Grumpy"]
 names.each_with_index do |name, index|
 end

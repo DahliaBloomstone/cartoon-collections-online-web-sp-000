@@ -23,6 +23,7 @@ def long_planeteer_calls(calls)
   end
 end
 
+#look through strings to find a type of cheese. return nil if the ingredients do not return a cheese.
 def find_the_cheese(array)
   i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]

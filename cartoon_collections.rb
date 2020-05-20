@@ -1,3 +1,4 @@
+#print out dwarf names in order:
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |name, index|
@@ -6,6 +7,7 @@ def roll_call_dwarves(dwarves)
   end
 end
 #=> 1. Doc 2. Dopey 3. Bashful 4. Grumpy
+
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
     call.capitalize << "!"

@@ -1,10 +1,12 @@
 #collect, map, find, include, each_with_index, control flow if/else
 
 names = ["Doc", "Dopey", "Bashful", "Grumpy"]
-def roll_call_dwarves(names, index)
-names.each_with_index do |name, index|
-puts "#{index}, #{name}"
-end
+def roll_call_dwarves(array)
+  i = 0
+  while i < array.length
+    puts "#{i + 1}. #{array[i]}"
+    i += 1
+  end
 end
 
 def summon_captain_planet# code an argument here

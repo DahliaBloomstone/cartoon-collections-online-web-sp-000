@@ -1,3 +1,4 @@
+#collect, map, find, include, each_with_index 
 def roll_call_dwarves# code an argument here
   # Your code here
 end

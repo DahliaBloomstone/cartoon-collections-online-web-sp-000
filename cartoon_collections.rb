@@ -8,6 +8,7 @@ def roll_call_dwarves(dwarves)
 end
 #=> 1. Doc 2. Dopey 3. Bashful 4. Grumpy
 
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
     call.capitalize << "!"

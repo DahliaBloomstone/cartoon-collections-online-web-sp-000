@@ -25,7 +25,7 @@ end
 
 #look through strings to find a type of cheese. return nil if the ingredients do not return a cheese.
 def find_the_cheese(array)
-  i = 0
+  i = 0 #start at first item: cheddar 
   cheese_types = ["cheddar", "gouda", "camembert"]
   while i < cheese_types.length
     return cheese_types[i] if array.include?(cheese_types[i])

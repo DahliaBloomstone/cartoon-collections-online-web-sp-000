@@ -2,7 +2,9 @@
 
 def roll_call_dwarves(names)
 names = ["Doc", "Dopey", "Bashful", "Grumpy"]
-  puts
+names.each_with_index do |name, index|
+  
+
 end
 
 def summon_captain_planet# code an argument here

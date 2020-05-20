@@ -5,7 +5,6 @@ names = ["Doc", "Dopey", "Bashful", "Grumpy"]
 names.each_with_index do |name, index|
 end
 puts roll_call_dwarves
-
 end
 
 def summon_captain_planet# code an argument here

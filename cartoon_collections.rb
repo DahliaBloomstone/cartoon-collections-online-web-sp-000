@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
     puts "#{index}. #{name}"
   end
 end
-
+#=> 1. Doc 2. Dopey 3. Bashful 4. Grumpy
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
     call.capitalize << "!"

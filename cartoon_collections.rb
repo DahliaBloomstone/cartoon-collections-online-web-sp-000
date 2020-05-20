@@ -1,7 +1,7 @@
 #collect, map, find, include, each_with_index, control flow if/else
 
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(names)
+  array_names = ["Doc", "Dopey", "Bashful", "Grumpy"]
 end
 
 def summon_captain_planet# code an argument here

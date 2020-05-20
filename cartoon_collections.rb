@@ -18,7 +18,7 @@ end
 
 #are the calls longer than 4 characters?
 def long_planeteer_calls(calls)
-  calls.any? do |call|
+  calls.any? do |call| #any returns a boolean
     call.length > 4
   end
 end
